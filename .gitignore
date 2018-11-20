@@ -108,6 +108,8 @@ ENV/
 env.bak/
 venv.bak/
 static/
+/static
+/media
 
 # Spyder project settings
 .spyderproject
