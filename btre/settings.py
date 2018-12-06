@@ -31,6 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'django_unused_media',
     'pages.apps.PagesConfig',
     'realtors.apps.RealtorsConfig',
     'listings.apps.ListingsConfig',
@@ -78,9 +79,9 @@ WSGI_APPLICATION = 'btre.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'btredb',
-        'USER': 'postgres',
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'btre',
+        'USER': 'root',
         'PASSWORD': '1217',
         'HOST': 'localhost'
     }
